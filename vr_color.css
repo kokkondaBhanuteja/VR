@@ -1,0 +1,210 @@
+body {
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 3.0rem;
+    margin: auto;
+    padding: auto;
+}
+
+.grad {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+}
+
+.text {
+    justify-content: center;
+    color: lightgoldenrodyellow;
+    word-spacing: normal;
+}
+
+.top {
+    background-image: url(background.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /*this centers the text horizontally*/
+    justify-content: center;
+
+    /*this centers the text vertically*/
+    align-items: center;
+
+    color: whitesmoke;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#btnlink {
+    font-size: 3.2em;
+    padding-top: 3%;
+    color: #DEEFEA;
+}
+
+.aboutvr {
+    font-size: 1.5em;
+    color: #DEEFEA;
+}
+
+.praise {
+    font-size: 2.5em;
+    color: #DEEFEA;
+}
+
+.feat1 {
+    font-weight: 700;
+    padding-top: 2%;
+    padding-left: 3%;
+    color: #DEEFEA;
+}
+
+.feat2 {
+    font-weight: 700;
+    padding-top: 2%;
+    padding-left: 3%;
+    color: #DEEFEA;
+    border-bottom: 1px;
+    border-bottom-color: #DEEFEA;
+    border-bottom-style: solid;
+}
+
+
+.para {
+    color: #F88379;
+}
+
+.pics {
+    margin: 6%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.mid {
+    /*    background-image: url(middle_section.jpg);*/
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* The Side Bar Code*/
+
+/* NAvigation Bar Out Line*/
+
+.verticalbar {
+    background-color: #909090
+}
+
+.gallerybox {
+    margin-left: 3%;
+    padding-top: 3%;
+}
+
+.menubar {
+    width: 33%;
+}
+
+.sideitem {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 0%;
+    border-bottom: 0.08em;
+    border-bottom-color: darkgray;
+    border-bottom-style: solid
+}
+
+.first,
+second,
+third,
+forth {
+    height: 445px;
+}
+
+.sliderbox {
+    padding-left: 0%;
+}
+
+.nav-link {
+    color: azure;
+}
+
+.navicon {
+    height: 30px;
+}
+
+.items {
+    font-size: 1.5em;
+    color: #DEEFEA;
+}
+
+.contactlogo {
+    width: 6.0rem;
+}
+
+.contact_section {
+    margin: 0%;
+    padding-bottom: 2%;
+}
+
+.info {
+    width: 4.0em;
+    height: 4.0em;
+    padding: 15px;
+}
+
+.botm {
+    height: 10vh;
+    border-top: 3px;
+    border-top-color: darkgray;
+    border-top-style: solid;
+}
+
+.cont-info {
+    color: dimgray;
+}
+
+.num {
+    width: 2.5em;
+    height: 1.5em;
+    padding-right: 5%;
+
+}
+.mail{
+    justify-content: center;
+    align-content: center;
+}
+.phone{
+    justify-content: center;
+    align-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .first {
+        height: 260px;
+    }
+
+    .second {
+        height: 260px;
+    }
+
+    .third {
+        height: 260px;
+    }
+
+    .forth {
+        height: 260px;
+    }
+
+}
